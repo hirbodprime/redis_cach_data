@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cached Data</title>
+</head>
+<body>
+    <h1>Cached Data</h1>
+    <ul>
+        {% for key, value in cached_data.items %}
+            <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
